@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Front-end test 🚀
 
-## Getting Started
+This is the result of a front-end test I did for a job application at [Jump](https://www.join-jump.com/).
 
-First, run the development server:
+## Install dependencies:
+
+```bash
+npm i
+# or
+yarn
+# or
+pnpm i
+# or
+bun i
+```
+
+## Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +26,26 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to [http://localhost:3000](http://localhost:3000) to see the result.   
+→ Enjoy!   
+→ [Hire me!](mailto:vincent@celavi.fr) :smile:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   Pure CSS animations for the main loader (transformed with Tailwind CSS).
+-   React Query to fetch and cache the Pokémon data from [https://pokeapi.co/](https://pokeapi.co/).
+-   Custom input field for the filter field.
+-   Select for the type filter.
+-   React-hook-form for the form.
+-   Zod for form validation.
+-   Next.js API routes to handle form submissions.
+-   Open a drawer for pokemon details and bigger image.
+-   Responsive compliancy.
 
-## Learn More
+## Possible improvements
 
-To learn more about Next.js, take a look at the following resources:
+-   Add a loading state for the search input.
+-   Add a error state for the search input.
+-   Improve the a11y of the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by [Vincent Bianciotto](https://celavi.fr).

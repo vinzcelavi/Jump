@@ -12,6 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        loader: {
+          '0%': { inset: '0 35px 0 0' },
+          '50%': { inset: '0 0 0 0' },
+          '100%': { inset: '0 0 0 35px' }
+        }
+      },
+      animation: {
+        loader: 'loader 0.75s infinite alternate'
+      }
     },
   },
   plugins: [],
