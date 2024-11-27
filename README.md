@@ -2,6 +2,15 @@
 
 This is the result of a front-end test I did for a job application at [Jump](https://www.join-jump.com/).
 
+## Stack
+
+-   Next.js
+-   Tailwind CSS
+-   Vaul
+-   React Hook Form
+-   React Query
+-   Zod
+
 ## Install dependencies:
 
 ```bash
