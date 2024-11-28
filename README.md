@@ -51,6 +51,18 @@ Go to [http://localhost:3000](http://localhost:3000) to see the result.
 -   Open a drawer for pokemon details and bigger image.
 -   Responsive compliancy.
 
+## Time distribution (roughly speaking)
+
+-   30min: Setup the project, add global styles and install dependencies.
+-   1h: Add the first page (list of pokémon) and components (search input, select, pokemon card).
+-   1h: Add the form for adding a new pokémon.
+-   1h: Add the drawer for pokemon details.
+-   30min: Review and small improvements.
+
+## Known issues
+
+-   Email field auto-complete background color (white on dark mode).
+
 ## Possible improvements
 
 -   Add a loading state for the search input.
