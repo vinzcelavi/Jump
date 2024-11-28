@@ -84,7 +84,7 @@ export default function Home() {
   return (
     <main className="w-full max-w-[70rem]">
       <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-8 gap-4">
-        <h1 className="text-4xl md:text-6xl font-bold">Pokémon collection</h1>
+        <h1 className="text-4xl md:text-6xl font-bold">Pokémon list</h1>
         <Link href="/add-pokemon" className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white bg-blue-800 rounded hover:bg-blue-700 transition-colors duration-150">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-label="Add New Pokémon"><title>Add New Pokémon</title><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
           <span>Add a new Pokémon</span>
