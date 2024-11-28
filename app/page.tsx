@@ -3,7 +3,6 @@
 import { useQuery } from '@tanstack/react-query';
 import Link from 'next/link';
 import { useCallback, useState } from 'react';
-import { Drawer } from "vaul";
 import Loader from './components/Loader';
 import PokemonCard from './components/PokemonCard';
 
