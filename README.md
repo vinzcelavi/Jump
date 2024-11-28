@@ -2,6 +2,14 @@
 
 This is the result of a front-end test I did for a job application at [Jump](https://www.join-jump.com/).
 
+## Online version
+
+[https://joinjump.netlify.app/](https://joinjump.netlify.app/)
+
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/246fee1a-4568-4b5b-953a-5fa0860d7572/deploy-status)](https://app.netlify.com/sites/joinjump/deploys)
+
 ## Stack
 
 -   Next.js
