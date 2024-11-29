@@ -30,3 +30,9 @@ input,
 select {
   outline: none;
 }
+
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem var(--foreground);
+}
